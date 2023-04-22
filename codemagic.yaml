@@ -5,6 +5,7 @@ workflows:
     environment:
       flutter: stable
       xcode: 13.4.1
+      cocoapods: 1.12.1
     scripts:
       - name: Set up code signing settings on Xcode project
         script: |
